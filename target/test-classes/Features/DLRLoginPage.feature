@@ -9,6 +9,7 @@ And I enter <Username> in Username field
 And I enter <Password> in Password field
 When I click on Go button
 Then I should verify if its a successful DLR login
+And I should be able to close the browser
 
 
 Examples:

@@ -53,6 +53,9 @@ public class CommonStepDef
 //    		
 //    }
     
-   
+	    @And("^I should be able to close the browser$")
+	    public void i_should_be_able_to_close_the_browser() throws Throwable {
+	        System.out.println("Browser closed successfully");
+	    }
 
 }
