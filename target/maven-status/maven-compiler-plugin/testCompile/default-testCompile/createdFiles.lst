@@ -1,0 +1,17 @@
+resources\Screenshot.class
+resources\base.class
+resources\Listeners.class
+stepDefinitions\QAClickLoginSD.class
+resources\ExtentReporterNG.class
+resources\Waits.class
+pageObjects\DLRHomePage.class
+pageObjects\QAClickMainPage.class
+stepDefinitions\Hooks.class
+pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+resources\HighlightElement.class
+pageObjects\DLRCertifyLoginPage.class
+stepDefinitions\DLRLoginPage.class
+stepDefinitions\CommonStepDef.class
+cucumberOptions\TestRunner.class
+resources\CommonMethods.class

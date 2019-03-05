@@ -1,0 +1,286 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4303745869,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeDriver()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To verify DLR Certify login with set of credentials",
+        "description": "",
+        "id": "dlr-certify-login-page;to-verify-dlr-certify-login-with-set-of-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54000096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 127394383,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I initialize the driver with chrome browser",
+            "match": {
+              "location": "CommonStepDef.i_initialize_the_driver_with_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2745638873,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to https://demo.dlrcertify.com/ae site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demo.dlrcertify.com/ae",
+                  "offset": 14
+                }
+              ],
+              "location": "CommonStepDef.i_navigate_to_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624338949,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter isadmin in Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "isadmin",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonStepDef.i_enter_in_username_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630640072,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter T@x5t@mp5!! in Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "T@x5t@mp5!!",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonStepDef.i_enter_in_password_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5648457411,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Go button",
+            "match": {
+              "location": "DLRLoginPage.i_click_on_go_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33309024,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should verify if its a successful DLR login",
+            "match": {
+              "location": "DLRLoginPage.i_should_verify_if_its_a_successful_dlr_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegressionTests"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3365079703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializeDriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To verify DLR Certify login with set of credentials",
+        "description": "",
+        "id": "dlr-certify-login-page;to-verify-dlr-certify-login-with-set-of-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 48407282,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 981300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I initialize the driver with chrome browser",
+            "match": {
+              "location": "CommonStepDef.i_initialize_the_driver_with_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4547986102,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to https://demo.dlrcertify.com/ae site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demo.dlrcertify.com/ae",
+                  "offset": 14
+                }
+              ],
+              "location": "CommonStepDef.i_navigate_to_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644017302,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter test99@gmail.com in Username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test99@gmail.com",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonStepDef.i_enter_in_username_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600671864,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter 1234 in Password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 8
+                }
+              ],
+              "location": "CommonStepDef.i_enter_in_password_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2286411674,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Go button",
+            "match": {
+              "location": "DLRLoginPage.i_click_on_go_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20036082915,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should verify if its a successful DLR login",
+            "match": {
+              "location": "DLRLoginPage.i_should_verify_if_its_a_successful_dlr_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@RegressionTests"
+          }
+        ]
+      }
+    ],
+    "name": "DLR Certify Login Page",
+    "description": "",
+    "id": "dlr-certify-login-page",
+    "keyword": "Feature",
+    "uri": "DLRLoginPage.feature"
+  }
+]

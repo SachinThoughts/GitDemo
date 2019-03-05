@@ -1,0 +1,5 @@
+14:03:55.418 [main] INFO  SeleniumAuto.QAClickHomePage - Successfully validated QAClick Homepage title text message "FEATURED COURSES"
+14:03:55.450 [main] INFO  SeleniumAuto.QAClickHomePage - Navigated to login page - success
+14:28:28.052 [main] INFO  SeleniumAuto.QAClickHomePage - Navigated to the QAClick Academy Website
+14:28:28.261 [main] INFO  SeleniumAuto.QAClickHomePage - Successfully validated QAClick Homepage title text message "FEATURED COURSES"
+19:24:12.319 [main] INFO  SeleniumAuto.QAClickLoginPage - Non Restricted User

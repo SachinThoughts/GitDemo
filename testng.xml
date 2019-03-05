@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="resources.Listeners"></listener>
+<listener class-name="resources.ExtentReporterNG"></listener>
+</listeners>
+
+  <test thread-count="5" name="To verify QAClick Login with user roles">
+    <classes>
+      <class name="SeleniumAuto.QAClickLoginPage"/>
+    </classes>
+  </test>  
+  
+  <test name="Demo Test">
+    <classes>
+      <class name="SeleniumAuto.AppTest"/>
+    </classes>
+  </test>
+  
+  <test name="To verify homepage of QAClick Academy">
+    <classes>    
+      <class name="SeleniumAuto.QAClickHomePage"/>
+    </classes>
+  </test> 
+  
+   <test name="To verify DLR login page">
+    <classes>    
+      <class name="SeleniumAuto.DLRLogin"/>
+    </classes>
+  </test>
+
+</suite> <!-- Suite -->

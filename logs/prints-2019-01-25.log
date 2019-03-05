@@ -1,0 +1,6 @@
+14:34:18.590 [main] INFO  SeleniumAuto.QAClickHomePage - Driver is initialized
+14:34:20.931 [main] INFO  SeleniumAuto.QAClickHomePage - Navigated to the QAClick Academy Website
+14:34:30.717 [main] INFO  SeleniumAuto.QAClickHomePage - Successfully validated QAClick Homepage title text message "FEATURED COURSES"
+14:34:36.357 [main] INFO  SeleniumAuto.QAClickHomePage - Navigated to login page - success
+14:36:20.017 [main] INFO  SeleniumAuto.QAClickLoginPage - Non Restricted User
+14:36:40.299 [main] INFO  SeleniumAuto.QAClickLoginPage - Restricted User
