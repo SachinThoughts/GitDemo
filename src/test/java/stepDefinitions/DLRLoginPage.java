@@ -66,6 +66,21 @@ public class DLRLoginPage {
 	    		System.out.println("It is not a successful login");
 	    	}
 	    }
+	    
+	    @And("^I navigate to (.+) site$")
+	    public void i_navigate_to_site(String URL) throws Throwable {
+	        driver.get(URL);
+    }
+
+	    @And("^I enter (.+) in Username field$")
+	    public void i_enter_in_username_field(String Username) throws Throwable {
+	    	d.getUsername(Username);
+	    }
+
+	    @And("^I enter (.+) in Password field$")
+	    public void i_enter_in_password_field(String Password) throws Throwable {
+	        d.getPassword(Password);
+    }
 
 	}
 
