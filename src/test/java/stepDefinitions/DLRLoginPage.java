@@ -26,26 +26,26 @@ public class DLRLoginPage {
 	DLRHomePage h= new DLRHomePage(driver);
 	
 
-//	    @Given("^I initialize the driver with chrome browser for DLR site$")
-//	    public void i_initialize_the_driver_with_chrome_browser_for_dlr_site() throws Throwable {
-//	    	System.out.println("Browser is initialised");
-//	    }
+	    @Given("^I initialize the driver with chrome browser for DLR site$")
+	    public void i_initialize_the_driver_with_chrome_browser_for_dlr_site() throws Throwable {
+	    	System.out.println("Browser is initialised");
+	    }
 
 	   
-//	    @And("^I navigate to (.+) site$")
-//	    public void i_navigate_to_site(String URL) throws Throwable {
-//	        driver.get(URL);
-//	    }
+	    @And("^I navigate to (.+) site$")
+	    public void i_navigate_to_seite(String URL1) throws Throwable {
+	        driver.get(URL1);
+	    }
 
-//	    @And("^I enter (.+) in Username field$")
-//	    public void i_enter_in_username_field(String Username) throws Throwable {
-//	    	d.getUsername(Username);
-//	    }
-//
-//	    @And("^I enter (.+) in Password field$")
-//	    public void i_enter_in_password_field(String Password) throws Throwable {
-//	        d.getPassword(Password);
-//	    }
+	    @And("^I enter (.+) in Username field$")
+	    public void i_enter_in_useername_field(String Username1) throws Throwable {
+	    	d.getUsername(Username1);
+	    }
+
+	    @And("^I enter (.+) in Password field$")
+	    public void i_enter_in_passeword_field(String Password1) throws Throwable {
+	        d.getPassword(Password1);
+	    }
 	
 	
 	    
